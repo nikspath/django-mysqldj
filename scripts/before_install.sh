@@ -14,7 +14,10 @@ sudo ./install auto
 
 # update os & install python3
 sudo apt-get update
-sudo apt-get install -y python3 python3-dev python3-pip python3-venv
+sudo apt-get install -y python3 python3-dev python3-pip python3-venv 
+sudo apt-get install libmysqlclient-dev 
+sudo apt install build-essential
+sudo apt-get install manpages-dev
 pip install --user --upgrade virtualenv
 
 # delete app
