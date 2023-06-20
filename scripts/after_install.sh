@@ -15,6 +15,7 @@ source venv/bin/activate
 
 install requirements.txt
 pip install -r /home/ubuntu/django-mysqldj/requirements.txt
+pip3 install mysqlclient
 
 # run server
 screen -d -m python3 manage.py runserver 0:8000
