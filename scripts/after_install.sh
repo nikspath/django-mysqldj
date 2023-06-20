@@ -7,14 +7,14 @@ sudo pkill -f runserver
 # sudo pkill -f tailwind
 # sudo pkill -f node
 
-cd /home/ubuntu/djangowithmysql/
+cd /home/ubuntu/django-mysqldj/
 
 # activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
 install requirements.txt
-pip install -r /home/ubuntu/djangowithmysql/requirements.txt
+pip install -r /home/ubuntu/django-mysqldj/requirements.txt
 
 # run server
 screen -d -m python3 manage.py runserver 0:8000
